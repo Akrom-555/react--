@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+.logo-header{
+    display: flex;
+}
+
+.block{
+    background-color: rgba(210, 0, 164, 0.1);;
+    width: 670px;
+    margin:  50px auto;
+}
+
+.header-content{
+    background-color:rgba(0, 164, 56, 0.09);
+    display: flex;
+    justify-content:space-between;
+}
+.headerLogo{
+    padding: 7px;
+    background-color:  rgba(240, 14, 14, 0.1);;
+}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.header-menu ul li {
+    margin-right: 20px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #003399;
+}
+
+
+
+.number p {
+    background-color: rgba(23, 10, 10, 0.09);
+text-align: center;
+font-size: 288px;
+margin: 30px auto;
+color: #F27C0F;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 288px;
+line-height: 339px;
+}
+
+.buttons{
+    padding: 10px;
+    background-color: rgba(21, 101, 147, 0.1);;
+    display: flex;
+    justify-content:space-around;
+}
+
+.button{
+    padding: 10px;
+    width: 170px;
+    font-size: 18px;
+}
+.one{
+    background-color: rgb(22, 22, 81);
+    color:white;
+}
+.two{
+    background-color: #F27C0F;
+    color:white;
+}
+.three{
+    background-color: rgb(216, 207, 207);
+}
+
+.footer-content{
+    background-color:  rgba(242, 124, 15, 0.3);;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 80px;
+}
+.footer-menu ul{
+    display: flex;
+    list-style: none;
+    color: rgb(171, 101, 101);
+    background-color: rgba(130, 19, 19, 0.2);
+    padding: 10px;
+    
+}
+.footer-menu ul li {
+    margin-right: 20px;
+ 
+}
+.footer-copyriht{
+    color: rgb(171, 101, 101);
+    padding: 10px;
+    background-color: rgba(196, 196, 196, 0.4);;
+
+}
+
+.footer-logo {
+    padding: 18px;
+    background-color: rgba(196, 196, 196, 0.4);;
+}
